@@ -4,7 +4,7 @@
 ### **Install Dependencies**
 ```sh
 git clone <repository-url>
-cd crypto-price-tracker/web-app
+cd CryptoDashboard/web-app 
 npm install
 ```
 
