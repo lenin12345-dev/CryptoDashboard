@@ -88,6 +88,9 @@ export const useCrypto = () => useContext(CryptoContext);
 
 ## **4. Challenges & Solutions**
 There weren’t many challenges due to the simplicity of the application.
+### **Hiding API URL from the Browser**
+Initially, the API URL was exposed in the browser’s network requests.
+Solution: Used Next.js API routes (/pages/api/crypto.js) to fetch data on the server side and return it to the client, keeping the API URL hidden from the frontend.
 
 ### **Error Handling**
 - When API requests failed, the app showed an empty state without error messages.
