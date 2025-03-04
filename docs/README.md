@@ -3,7 +3,7 @@
 
 ```
 git clone https://github.com/lenin12345-dev/CryptoDashboard.git
-cd crypto-price-tracker/web-app
+cd CryptoDashboard/web-app
 npm install
 
 ```
@@ -27,4 +27,3 @@ This command generates static content into the `build` directory and can be serv
 
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
